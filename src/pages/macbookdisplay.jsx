@@ -11,7 +11,7 @@ export default function MacbookDisplay() {
   return (
     <div>
       <div className="h-auto">
-        <div className="min-h-screen w-4/6 mr-auto ml-auto grid grid-cols-2 mt-16">
+        <div className="min-h-screen w-4/6 mr-auto ml-auto grid grid-cols-1 sm:grid-cols-2 mt-16">
           <div>
             <img src="https://i.imgur.com/5PyPjFK.jpg" />{" "}
           </div>
@@ -19,11 +19,13 @@ export default function MacbookDisplay() {
             <h1 className="text-3xl tracking-wide">
               {product.name} <br />
             </h1>
-            <h2 className="text-gray-700">{product.price}</h2>
-            <h3>
+            <h2 className="text-gray-700">{product.price} ₾</h2>
+            <div>
+              <h3 className="pt-4 sm:pt-0">
               უფასო მიტანის სერვისი შესაძლებელია თბილისის მაშტაბით.! <br />
-              შესაძენად შეგვეხმიანეთ შემდგომ ნომერზე <br /> <br />
-              <div className="text-center">
+               </h3> 
+              <br /> 
+              <div className="mb-4 sm:mb-0 text-center">
                 {" "}
                 <a
                   href="tel:+995571174686"
@@ -31,13 +33,14 @@ export default function MacbookDisplay() {
                 >
                   შეგვეხმიანეთ შესაძენად
                 </a>
+                
               </div>
-              <h1 className="font-extrabold  text-lg">მონაცემები</h1> <br />
+              <h1 className="pt-4 font-extrabold  text-lg">მონაცემები</h1> <br />
               ოპერატიული: {product.RAM} <br />
               მეხსიერება: {product.Storage} <br />
               მოდელი: {product.Processor} <br />
               დამტენი: 140ვატ <br />
-            </h3>
+            </div>
           </div>
         </div>
       </div>
