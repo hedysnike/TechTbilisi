@@ -25,7 +25,7 @@ export default function Home() {
           </div>
           <div className="font-extrabold hover:bg-gray-100 pt-8 border border-black border-hidden hover:border-solid">
             <Link to="/macboo/14 Inch">
-              MACBOOK 14 INCH M1 <br />
+              MACBOOK M1 14 INCH <br />
               <h6 className="text-[#006eff] text-xs pb-4"> იხილეთ ყველა</h6>
               <img
                 src="https://i.imgur.com/rAx2P6e.jpg"
@@ -55,7 +55,7 @@ export default function Home() {
       </div>
       <div className="bg-[#262626] pt-4 mb-8 pb-10 h-6"></div>
       <div className="ml-auto mr-auto max-w-7xl m-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center w-2/3 gap-5 text-black ">
+        <div className="grid grid-col-1 items-center lg:grid-cols-2 mr-auto ml-auto sm:w-2/3 px-5 gap-5 text-black text-sm lg:text-base">
           <div>
             <img src="https://i.imgur.com/UTFt4Ig.jpg" />
           </div>

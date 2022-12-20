@@ -9,7 +9,7 @@ export default function Navigation() {
         </div>
       </div>
       <div className="bg-[#201f20] text-white pt-4 pb-5">
-        <div className="flex w-4/6 ml-auto mr-auto gap-6">
+        <div className="flex w-4/6 ml-auto mr-auto gap-6 justify-center sm:justify-start">
           <Link to="/">მთავარი</Link>
           <Link to="/macbook">MacBooks</Link>
           <Link to="/contact">კონტაქტი</Link>
