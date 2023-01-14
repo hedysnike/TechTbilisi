@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <div className="h-auto bg-black">
+    <div className="h-auto">
       <div className="grid grid-cols-2 gap-8 w-4/6 ml-auto mr-auto h-screen">
-        <div className="text-white mt-8 text-center">
+        <div className="text-black mt-8 text-center">
           <h1 className="text-lg">დაგვიკავშირდით:</h1>
           <br />
           <br />
@@ -11,7 +11,7 @@ export default function Contact() {
           Telegram - @xxxxxxxxx <br />
           Email - arebanikko@gmail.com <br />
         </div>
-        <div className="m-8 text-white text-center">
+        <div className="m-8 text-black text-center">
           უკუკავშირის ფორმა
           <div className="grid justify-center">
             <div className="py-8">
@@ -31,7 +31,7 @@ export default function Contact() {
               type="text"
               placeholder="შეტყობინება"
             />{" "}
-            <button className="bg-blue-700 text-white mx-auto px-4 rounded mt-6">
+            <button className="bg-black text-white mx-auto px-4 rounded mt-6">
               გაგზავნა
             </button>
           </div>

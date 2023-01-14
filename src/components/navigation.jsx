@@ -7,11 +7,11 @@ export default function Navigation() {
           <img className="max-w-xs" src="https://i.imgur.com/b23nDJ1.png" />
       </div>
       <div className=" text-black">
-        <div className="flex gap-20 text-lg justify-end pt-9">
-        <Link to="/">მთავარი</Link>
-          <Link to="/macbook">MacBooks</Link>
-          <Link to="/contact">კონტაქტი</Link>
-          <Link to="/else">ჩვენს შესახებ</Link>
+        <div className="flex gap-16 text-xl justify-end pt-9">
+        <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/">მთავარი</Link>
+          <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/macbook">პროდუქცია</Link>
+          <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/contact">კონტაქტი</Link>
+          <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/else">ჩვენს შესახებ</Link>
         </div>
       </div>
     </div>
