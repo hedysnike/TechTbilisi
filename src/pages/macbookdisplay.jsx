@@ -5,6 +5,8 @@ import MacFag from "../components/macfag";
 export default function MacbookDisplay() {
   const { id } = useParams();
   const product = maks.find((mak) => mak.id == id);
+
+  
   if (!product) {
     return <div>პროდუქტი არ მოიძებნა</div>;
   }
