@@ -5,7 +5,7 @@ import MacFag from "../components/macfag";
 
 export default function MacBook() {
   return (
-    <div className="h-auto bg-[#f7f7f7]">
+    <div className="h-auto min-h-[72vh] ">
       <div className="max-w-6xl ml-auto mr-auto">
         <header className="p-12 font-extrabold">
           <div>Apple MacBook კატალოგი</div> <div></div>
