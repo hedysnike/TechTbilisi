@@ -17,7 +17,7 @@ export default function Home() {
         <div className="ml-auto mr-auto w-9/12">
           <div className="text-white text-center gap-5 pt-10">
             <div className="text-black mb-4 pb-8 flex items-center">
-              <img src="https://i.imgur.com/RlZAqNB.png" className="pr-16 pt-8 max-w-xl" />
+              <img src="https://i.imgur.com/HdPQwdz.jpg" className="pr-16 pt-8 max-w-xl" />
               <div className="text-left px-16 mt-5 text-4xl">
                 Macbook M1 <br />
                 <Link to="/macbook">
