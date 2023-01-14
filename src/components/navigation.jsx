@@ -8,7 +8,6 @@ export default function Navigation() {
       </div>
       <div className=" text-black">
         <div className="flex gap-20 text-lg justify-end pt-9">
-          <Link to="/">მთავარი</Link>
           <Link to="/macbook">MacBooks</Link>
           <Link to="/contact">კონტაქტი</Link>
           <Link to="/else">ჩვენს შესახებ</Link>

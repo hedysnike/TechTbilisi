@@ -9,7 +9,6 @@ const maks = [
   export default maks;
 
 
-
   // { id: 131256, name: "Macbook M2 Air 13 Inch 256Gb", price: "3400", Storage: "256GB", RAM: "8GB", Processor: "M2 Air", Screen: "13 Inch" },
   // { id: 131512, name: "Macbook M2 Air 13 Inch 512Gb", price: "4200", Storage: "512GB", RAM: "8GB", Processor: "M2 Air", Screen: "13 Inch" },
   // { id: 132256, name: "Macbook M2 Pro 13 Inch 256Gb", price: "3700", Storage: "256GB", RAM: "8GB", Processor: "M2 Pro", Screen: "13 Inch" },
