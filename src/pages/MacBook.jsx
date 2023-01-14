@@ -15,7 +15,6 @@ export default function MacBook() {
           ))}
         </div>
       </div>
-      <div>///Made By Nikola</div>
     </div>
   );
 }
