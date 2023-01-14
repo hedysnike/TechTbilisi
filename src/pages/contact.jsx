@@ -5,10 +5,11 @@ export default function Contact() {
         <div className="text-black mt-8 text-center text-3xl">
           <br />
           <br />
-          Phone Number - 555 55 55 55 <br /> <br />
-          WhatsApp - 555 55 55 55 <br /> <br />
-          Telegram - @xxxxxxxxx <br /><br />
-          Email - arebanikko@gmail.com <br /><br />
+          ნომერი - 544 44 01 23 <br /> <br />
+          შეგვეხმიანეთ: <br /><br />
+          WhatsApp - 
+          Telegram - 
+          Viber
         </div>
       </div>
     </div>

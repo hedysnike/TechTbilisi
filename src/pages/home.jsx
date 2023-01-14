@@ -19,7 +19,7 @@ export default function Home() {
             <div className="text-black mb-4 pb-8 flex items-center">
               <img src="https://i.imgur.com/HdPQwdz.jpg" className="pr-16 pt-8 max-w-xl" />
               <div className="text-left px-16 mt-5 text-4xl">
-                Macbook M1 <br />
+                Macbook M1 / M2 <br />
                 <Link to="/macbook">
                   {" "}
                   <button className="border p-2 text-sm mt-4 mb-2 border-solid border-black hover:bg-black hover:text-white">
