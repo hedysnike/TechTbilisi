@@ -18,7 +18,7 @@ function App() {
         <Route path="macbook" element={<MacBook />} />
         <Route path="contact" element={<Contact />} />
         <Route path="else" element={<Else />} />
-        <Route path="/macbook/:id" element={<MacbookDisplay />} />
+        <Route path="/macbook/:id" element={<MacbookDisplay />} />  
         <Route path="Macboo/:Screen" element={<MacBooksize />} />
       </Routes>
       <Bottom></Bottom>

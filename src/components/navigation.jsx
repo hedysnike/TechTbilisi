@@ -8,7 +8,7 @@ export default function Navigation() {
       </div>
       <div className=" text-black">
         <div className="flex gap-16 text-xl justify-end pt-9">
-        <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/">მთავარი</Link>
+        <Link className="hover:border-b-2 hover:border-black hover:border-solid pb-1" to="/">მთავარი</Link>
           <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/macbook">პროდუქცია</Link>
           <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/contact">კონტაქტი</Link>
           <Link className="hover:border-b-2 border-b-2 border-transparent  hover:border-black hover:border-solid" to="/else">ჩვენს შესახებ</Link>

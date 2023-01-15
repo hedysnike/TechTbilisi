@@ -3,7 +3,7 @@ import MacFag from "../components/macfag";
 
 export default function MacBook() {
   return (
-    <div className="h-auto min-h-[74.3vh] ">
+    <div className="h-auto min-h-[73.6vh]">
       <div className="w-9/12 ml-auto mr-auto">
         <header className="py-12 p-2 mt-20 text-3xl font-extrabold">
           <div>Apple MacBook's</div> <div></div>
