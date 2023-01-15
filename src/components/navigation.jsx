@@ -7,7 +7,7 @@ export default function Navigation() {
           <img className="max-w-xs" src="https://i.imgur.com/b23nDJ1.png" />
       </div>
       <div className=" text-black">
-        <div className="flex gap-16 text-xl justify-end pt-9">
+        <div className="flex gap-16 text-lg justify-end pt-9">
         <Link className="hover:border-b-2 hover:border-black hover:border-solid pb-1" to="/">მთავარი</Link>
           <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/macbook">პროდუქცია</Link>
           <Link className="hover:border-b-2 hover:border-black hover:border-solid" to="/contact">კონტაქტი</Link>
