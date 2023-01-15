@@ -11,7 +11,7 @@ export default function Home() {
         <div className="text-black text-5xl	leading-[125%]">
           TechTbilisi-ში ჩვენ გაწვდით <br /> თქვენთვის საჭირო <br /> ტექნოლოგიებს
         </div>
-        <div className="pb-1 bg-black mt-28"></div>
+        <div className="border-b-2 border-black border-solid mt-28"></div>
       </div>
       <div>
         <div className="ml-auto mr-auto w-9/12">
