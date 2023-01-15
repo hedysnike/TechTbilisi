@@ -1,5 +1,5 @@
 import maks from "./products";
-import MacFag from "../components/macfag";
+import MacFag from "../components/macComponent";
 
 export default function MacBook() {
   return (

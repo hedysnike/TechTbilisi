@@ -1,6 +1,6 @@
 import maks from "./products";
 import { useParams } from "react-router-dom";
-import MacFag from "../components/macfag";
+import MacComponent from "../components/macComponent";
 
 export default function MacBooksize() {
   const { Screen } = useParams();
@@ -13,7 +13,7 @@ export default function MacBooksize() {
         </header>
         <div className="text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 m-12 justify-center items-center gap-1 gap-y-10 justify-items-center text-Black">
           {sizes.map((mak) => (
-            <MacFag name={mak.name} price={mak.price} id={mak.id} />
+            <MacComponent name={mak.name} price={mak.price} id={mak.id} />
           ))}
         </div>
       </div>
