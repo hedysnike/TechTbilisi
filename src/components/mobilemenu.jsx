@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Menu() {
   return (
-    <NavigationMenu.Root className="w-[100vw] z-10">
+    <NavigationMenu.Root className="z-10">
       <NavigationMenu.List>
         <NavigationMenu.Item>
           <NavigationMenu.Trigger>
