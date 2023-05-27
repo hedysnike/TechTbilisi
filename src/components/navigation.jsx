@@ -12,11 +12,9 @@ export default function Navigation() {
         <Menu />
       </div>
         <div className="flex gap-16 text-lg justify-end pt-9 invisible lg:visible w-0 h-0 lg:w-auto lg:h-auto text-black">
-          <Link className="hover:border-b-2 hover:border-black hover:border-solid pb-1" to="/">მთავარი</Link>
-          <Link className="hover:border-b-2 hover:border-black hover:border-solid pb-1" to="/macbook">პროდუქცია</Link>
-          <Link className="hover:border-b-2 hover:border-black hover:border-solid pb-1" to="/contact">კონტაქტი</Link>
-          <Link className="hover:border-b-2 border-b-2 border-transparent  pb-1  hover:border-black hover:border-solid" to="/else">ჩვენს შესახებ</Link>
-
+          <Link className="border-b-2 border-white hover:border-black hover:border-solid pb-1" to="/">მთავარი</Link>
+          <Link className="border-b-2 border-white hover:border-black hover:border-solid pb-1" to="/macbook">პროდუქცია</Link>
+          <Link className="border-b-2 border-white hover:border-black hover:border-solid pb-1" to="/contact">კონტაქტი</Link>
         </div>
       </div>
     </div>

@@ -22,12 +22,6 @@ export default function Menu() {
             <Link className="hover:border-b-2 hover:border-black hover:border-solid pb-1" to="/contact">
               კონტაქტი
             </Link>
-            <Link
-              className="hover:border-b-2 border-b-2 border-transparent  pb-1  hover:border-black hover:border-solid"
-              to="/else"
-            > <br />
-              ჩვენს შესახებ
-            </Link>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 

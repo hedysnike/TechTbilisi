@@ -5,3 +5,9 @@
 * {
     font-family: 'Karla', sans-serif;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  

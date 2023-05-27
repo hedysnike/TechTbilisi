@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Routes, Route, useNavigate } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -40,5 +39,4 @@ export default function Home() {
         </div>
     </div>
   );
-  <Link to="/">მთავარი</Link>;
 }
