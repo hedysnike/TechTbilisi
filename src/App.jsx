@@ -12,7 +12,7 @@ import { ScrollArea } from "@mantine/core";
 function App() {
   return (
     <BrowserRouter>
-      <ScrollArea>
+      <ScrollArea className="h-screen" scrollbarSize={17}>
       <Navigation></Navigation>
       <Routes>
         <Route index element={<Home />} />
